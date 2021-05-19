@@ -13,8 +13,8 @@ from matplotlib import pyplot as plt
 import streamlit as st
 
 # Read the Files
-heartdf1 = pd.read_csv("C:/Users/Ashwin Anil/Downloads/Heart Attack Datasets/heart.csv")
-heartdf2 = pd.read_csv("C:/Users/Ashwin Anil/Downloads/Heart Attack Datasets/o2Saturation.csv")
+heartdf1 = pd.read_csv("heart.csv")
+#heartdf2 = pd.read_csv("C:/Users/Ashwin Anil/Downloads/Heart Attack Datasets/o2Saturation.csv")
 
 # Specifying the Categorical columns
 categorical_cols = ['sex', 'cp', 'fbs', 'restecg', 'exng','slp', 'caa','thall'] 
